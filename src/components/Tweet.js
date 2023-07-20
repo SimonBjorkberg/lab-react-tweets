@@ -7,9 +7,9 @@ import Message from "./Message";
 function Tweet(props) {
   return (
     <div>
-      {props.tweet.map((tweet) => {
+      {props.tweet.map((tweet, index) => {
         return (
-          <div className="tweet">
+          <div className="tweet" key={index}>
             <ProfileImage image={tweet.user.image} />
 
             <div className="body">
