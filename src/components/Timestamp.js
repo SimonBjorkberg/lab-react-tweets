@@ -1,6 +1,6 @@
 const Timestamp = (props) => {
     return ( 
-        <span className="timestamp">{props.timestamp}</span>
+        <span className="timestamp">{props.timeStamp}</span>
      );
 }
  
